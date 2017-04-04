@@ -1,0 +1,69 @@
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-container.modal-md .content {
+  max-width: 1085px;
+}
+
+.modal-container.modal-sm .content {
+  max-width: 500px;
+}
+
+.modal-container .modal-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #30c4d1;
+  opacity: .75;
+  z-index: 1001;
+  cursor: pointer;
+}
+
+.modal-container .modal-body {
+  flex: 1;
+  text-align: center;
+  padding: 60px;
+  background-color: #fff;
+  z-index: 1002;
+  position: relative;
+}
+
+.modal-container .modal-body .modal-dismiss {
+  position: absolute;
+  top: 35px;
+  right: 55px;
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background: url(../../../public/i/modal-dismiss.png);
+  background-size: 26px 26px;
+  cursor: pointer;
+}
+
+.modal-container .error {
+  color: #d13056;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.modal-container .modal-body hr {
+  margin: 15px 0;
+  background: #eceff1;
+  border: none;
+  height: 1px;
+}
+
+.modal-container .modal-body .foot-note {
+  margin-top: 20px;
+}

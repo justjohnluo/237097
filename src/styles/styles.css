@@ -1,0 +1,333 @@
+/* This file contains generic css styles applied to the whole application */
+/* HTML RESETS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+ /* Import custom fonts */
+@font-face {
+  font-family: 'robotoitalic';
+  src: url('../../public/fonts/robotoItalic/Roboto-Italic-webfont.eot');
+  src: url('../../public/fonts/robotoItalic/Roboto-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../public/fonts/robotoItalic/Roboto-Italic-webfont.woff') format('woff'),
+       url('../../public/fonts/robotoItalic/Roboto-Italic-webfont.ttf') format('truetype'),
+       url('../../public/fonts/robotoItalic/Roboto-Italic-webfont.svg#robotoitalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotoblack';
+  src: url('../../public/fonts/robotoBlack/Roboto-Black-webfont.eot');
+  src: url('../../public/fonts/robotoBlack/Roboto-Black-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../public/fonts/robotoBlack/Roboto-Black-webfont.woff') format('woff'),
+       url('../../public/fonts/robotoBlack/Roboto-Black-webfont.ttf') format('truetype'),
+       url('../../public/fonts/robotoBlack/Roboto-Black-webfont.svg#robotoblack') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'quicksandregular';
+  src: url('../../public/fonts/quicksandRegular/quicksand-regular-webfont.woff2') format('woff2'),
+       url('../../public/fonts/quicksandRegular/quicksand-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'quicksanditalic';
+  src: url('../../public/fonts/quicksandItalic/quicksand-italic-webfont.woff2') format('woff2'),
+       url('../../public/fonts/quicksandItalic/quicksand-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotolight';
+  src: url('../../public/fonts/robotoLight/Roboto-Light-webfont.eot');
+  src: url('../../public/fonts/robotoLight/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../public/fonts/robotoLight/Roboto-Light-webfont.woff') format('woff'),
+       url('../../public/fonts/robotoLight/Roboto-Light-webfont.ttf') format('truetype'),
+       url('../../public/fonts/robotoLight/Roboto-Light-webfont.svg#robotolight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'quicksandbold';
+  src: url('../../public/fonts/quicksandBold/quicksand-bold-webfont.woff2') format('woff2'),
+       url('../../public/fonts/quicksandBold/quicksand-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'playfair_displaybold';
+  src: url('../../public/fonts/playfairdisplayBold/playfairdisplay-bold-webfont.woff2') format('woff2'),
+       url('../../public/fonts/playfairdisplayBold/playfairdisplay-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotoregular';
+  src: url('../../public/fonts/robotoRegular/Roboto-Regular-webfont.eot');
+  src: url('../../public/fonts/robotoRegular/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../public/fonts/robotoRegular/Roboto-Regular-webfont.woff') format('woff'),
+       url('../../public/fonts/robotoRegular/Roboto-Regular-webfont.ttf') format('truetype'),
+       url('../../public/fonts/robotoRegular/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'playfair_displaybold_italic';
+  src: url('../../public/fonts/playfairBoldItalic/playfairdisplay-bolditalic-webfont.woff2') format('woff2'),
+       url('../../public/fonts/playfairBoldItalic/playfairdisplay-bolditalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotolight_italic';
+  src: url('../../public/fonts/robotoLightItalic/Roboto-LightItalic-webfont.eot');
+  src: url('../../public/fonts/robotoLightItalic/Roboto-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../public/fonts/robotoLightItalic/Roboto-LightItalic-webfont.woff') format('woff'),
+       url('../../public/fonts/robotoLightItalic/Roboto-LightItalic-webfont.ttf') format('truetype'),
+       url('../../public/fonts/robotoLightItalic/Roboto-LightItalic-webfont.svg#robotolight_italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotobold';
+  src: url('../../public/fonts/robotoBold/Roboto-Bold-webfont.eot');
+  src: url('../../public/fonts/robotoBold/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../public/fonts/robotoBold/Roboto-Bold-webfont.woff') format('woff'),
+       url('../../public/fonts/robotoBold/Roboto-Bold-webfont.ttf') format('truetype'),
+       url('../../public/fonts/robotoBold/Roboto-Bold-webfont.svg#robotobold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+a, a:visited {
+  color: #30c4d1;
+}
+
+.content {
+	max-width: 1354px;
+	margin: 0 auto;
+  padding: 0 32px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.col-8 {
+  flex-basis: 65%;
+}
+
+.col-4 {
+  flex-basis: 33%;
+}
+
+.block {
+  width: 100%;
+}
+
+.flex-filler {
+	flex: 1;
+}
+
+/* Custom input & select styles */
+input, .select {
+  font-family: 'robotolight_italic', sans-serif;
+  color: #94969e;
+  font-size: 18px;
+  padding: 16px 32px;
+  border: none;
+  background-color: #eceff1;
+  position: relative;
+}
+
+input.search {
+  padding: 10px 32px;
+  width: 100%;
+  position: relative;
+  padding-left: 18px;
+}
+
+.search-icon-grey {
+  content: '';
+  position: absolute;
+  top: 38px;
+  right: 35px;
+  width: 18px;
+  height: 18px;
+  background: url(../../public/i/search-icon-grey.png);
+  background-size: 100% 100%;
+}
+
+.select.white {
+	background-color: #fff;
+}
+
+.select {
+  text-align: left;
+  cursor: pointer;
+}
+
+.select::after {
+  content: ' ';
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  width: 18px;
+  height: 10px;
+  background: url(../../public/i/select-caret.png);
+  background-size: 18px 10px;
+  z-index: 999;
+}
+
+input:focus, .select:focus, .select *:focus {
+	outline: 0;
+}
+
+.select.select-inline.rc-select {
+  display: inline-block;
+  max-width: 290px;
+  width: 100%;
+  margin: 0 34px;
+}
+
+.rc-select-dropdown-hidden {
+  display: none;
+}
+.rc-select-dropdown {
+  z-index: 1000;
+}
+
+.rc-select-dropdown-menu-item {
+  background: #eceff1;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.rc-select-dropdown-menu-item:hover {
+  background-color: #E4E7E9;
+}
+
+.rc-select-dropdown-menu-item.white {
+  background: #fff;
+}
+
+.rc-select-dropdown-menu-item.white:hover {
+  background-color: #E5E8EA;
+}
+
+.select.select-inline.rc-select.pull-right {
+  margin-right: 0;
+}
+
+.phone-icon {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background: url(../../public/i/phone-icon.png);
+	background-size: 100% 100%;
+	vertical-align: baseline;
+  margin-right: 4px;
+}
+
+
+.mail-icon {
+	display: inline-block;
+	width: 18px;
+	height: 13px;
+	background: url(../../public/i/mail-icon.png);
+	background-size: 100% 100%;
+	vertical-align: baseline;
+  margin-right: 4px;
+}
+
+@media screen and (max-width: 1365px) {
+	.content {
+		padding: 0 25px;
+	}
+
+  .flex-filler {
+  	display: none;
+  }
+
+  input, .select {
+    font-size: 12px;
+    padding: 12px;
+  }
+
+  .select::after {
+    top: 16px;
+  }
+
+  .select.select-inline.rc-select {
+    max-width: 100px;
+    margin: 0 0 0 10px;
+  }
+}

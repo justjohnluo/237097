@@ -1,0 +1,185 @@
+.contact-us .contact-details {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.contact-us .contact-details > span {
+  margin: 0 35px;
+}
+
+.contact-us .contact-details a {
+  font-family: 'robotolight', sans-serif;
+  color: #fff;
+  font-size: 24px;
+}
+
+.contact-us .text-separator {
+  width: 400px;
+  margin: 40px auto 30px;
+  font-family: 'robotobold', sans-serif;
+  font-size: 24px;
+  border-top: 2px solid #fff;
+}
+
+.contact-us .text-separator span {
+  text-align: center;
+  background-color: #57e4c5;
+  display: block;
+  position: relative;
+  width: 60px;
+  margin: -20px auto 0;
+}
+
+.contact-us .contact-form {
+  background: url(../../../public/i/patterns/message-form-bg.png);
+  background-size: 100% 100%;
+  display: block;
+  width: 922px;
+  margin: -20px auto -145px;
+  position: relative;
+  z-index: 1000;
+  padding: 125px 60px 70px;
+}
+
+.contact-us .contact-form .contact-input {
+  padding: 0 6px;
+  border-bottom: 2px solid #fff;
+}
+
+.contact-us .contact-form .contact-input input {
+  font-family: 'robotoregular', sans-serif;
+  font-weight: normal;
+  background-color: transparent;
+  color: #fff;
+  font-size: 18px;
+  width: 90%
+}
+
+.contact-us .contact-form .contact-input input::-webkit-input-placeholder {
+  color: #fff
+}
+
+.contact-us .contact-form .contact-input input:-moz-placeholder {
+  color: #fff;
+}
+.contact-us .contact-form .contact-input input::-moz-placeholder {
+  color: #fff;
+}
+
+.contact-us .contact-form .contact-input input:-ms-input-placeholder {
+  color: #fff;
+}
+
+.contact-us .contact-form .contact-input .contact-email-icon {
+  display: inline-block;
+  width: 26px;
+  height: 24px;
+  background: url(../../../public/i/contact-mail-icon.png);
+  background-size: 100% 100%;
+  vertical-align: middle;
+}
+
+.contact-us .contact-form .contact-input.email {
+  width: 570px;
+  margin: 0 auto 60px;
+}
+
+.contact-us .contact-form .contact-input.message {
+  width: 810px;
+  margin: 0 auto 60px;
+}
+
+.contact-us .contact-form .contact-input.message input {
+  padding-left: 60px;
+}
+
+.contact-us .contact-form .contact-input .contact-message-icon {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background: url(../../../public/i/contact-message-icon.png);
+  background-size: 100% 100%;
+  vertical-align: middle;
+}
+
+.contact-us .contact-form .btn-white {
+  border-color: #fff;
+  color: #fff;
+}
+
+@media screen and (max-width: 1365px) {
+  .container.contact-us {
+    background-position: center 25px;
+    background-size: 100% auto;
+  }
+
+  .container.contact-us h2 {
+    font-size: 20px;
+  }
+
+  .container.contact-us h1 {
+    font-size: 40px;
+  }
+
+  .contact-us .contact-details {
+    display: block;
+    text-align: center;
+  }
+
+  .contact-us .contact-details > span {
+    margin: 10px auto;
+    display: block;
+  }
+
+  .contact-us .contact-details a {
+    font-size: 12px;
+  }
+
+  .contact-us .text-separator {
+    width: 200px;
+    margin: 20px auto 15px;
+    font-family: 'robotobold', sans-serif;
+    font-size: 14px;
+    border-top: 2px solid #fff;
+  }
+
+  .contact-us .text-separator span {
+    width: 40px;
+    margin: -10px auto 0
+  }
+
+  .contact-us .contact-form {
+    width: 330px;
+    padding: 60px 30px 30px;
+    margin: -10px auto -60px;
+  }
+
+  .contact-us .contact-form .contact-input.email {
+    width: 235px;
+    margin: 0 auto 15px;
+  }
+
+  .contact-us .contact-form .contact-input.message {
+    width: 285px;
+    margin: 0 auto 15px;
+  }
+
+  .contact-us .contact-form .contact-input.message input {
+    padding-left: 10px;
+  }
+
+  .contact-us .contact-form .contact-input .contact-email-icon {
+    width: 12px;
+    height: 10px;
+  }
+
+  .contact-us .contact-form .contact-input .contact-message-icon {
+    width: 12px;
+    height: 12px;
+  }
+
+  .contact-us .contact-form .contact-input input {
+    font-size: 12px;
+  }
+}

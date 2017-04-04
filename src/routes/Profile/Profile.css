@@ -1,0 +1,374 @@
+.profile .profile-header .content {
+  padding-left: 450px;
+}
+
+.profile .profile-header h4 {
+  font-family: 'quicksanditalic', sans-serif;
+  color: #8f7302;
+  font-size: 18px;
+  line-height: 1;
+  margin-top: 10px;
+}
+
+
+.profile .profile-header h3,
+.profile .profile-header h2 {
+  font-family: 'quicksanditalic', sans-serif;
+  color: #8f7302;
+  font-size: 24px;
+}
+
+.profile .profile-header h2 {
+  color: #fff;
+  margin-top: 10px;
+}
+
+.profile .profile-header .grid {
+  margin: 0;
+  padding-right: 75px;
+}
+
+.profile .section-header {
+  justify-content: flex-start;
+}
+
+.profile .section-header h3:first-child {
+  flex-basis: 300px;
+  margin-right: 30px;
+}
+
+.profile .with-sidebar {
+  display: flex;
+  align-items: flex-start;
+}
+
+.profile .with-sidebar .grid {
+  flex: 1;
+  margin: 0;
+}
+
+.profile .with-sidebar .grid .text-center {
+  flex: 1;
+}
+
+.profile .filter-sidebar {
+  flex-basis: 300px;
+  min-width: 300px;
+  background-color: #fff;
+  padding: 25px 20px;
+}
+
+.profile .cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 35px;
+  margin: 0 -20px;
+}
+
+.profile .filter-sidebar .btn-rounded {
+  padding: 14px 30px;
+}
+
+.profile .filter-sidebar p {
+  font-family: 'robotolight', sans-serif;
+  font-size: 16px;
+  color: #94969e;
+}
+
+.profile .filter-sidebar .interests-list li {
+  font-family: 'robotolight', sans-serif;
+  font-size: 20px;
+  color: #94969e;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+
+.profile .filter-sidebar .interests-list img {
+  max-width: 50px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.profile .filter-sidebar .monthly-achievements-list {
+  position: relative;
+}
+
+.profile .filter-sidebar .monthly-achievements-list::after {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 1px;
+  height: calc(100% - 12px);
+  background-color: #f8c702;
+}
+
+.profile .filter-sidebar .monthly-achievements-list li {
+  font-family: 'robotolight', sans-serif;
+  font-size: 16px;
+  color: #94969e;
+  margin-bottom: 20px;
+  padding-left: 24px;
+  position: relative;
+}
+
+.profile .filter-sidebar .monthly-achievements-list li::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 11px;
+  height: 11px;
+  background-color: #f8c702;
+}
+
+.profile .profile-image {
+  width: 400px;
+  height: 400px;
+  border-radius: 100%;
+  margin-top: -320px;
+  z-index: 999;
+}
+
+.profile .member-stats {
+  font-family: 'quicksandbold', sans-serif;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.profile .member-stats > div {
+  margin: 0 50px;
+}
+
+.profile .member-stats label {
+  display: block;
+  font-family: 'quicksanditalic', sans-serif;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.profile .member-stats .level-icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 22px;
+  height: 33px;
+  background: url(../../../public/i/level-icon.png);
+  background-size: 22px 33px;
+  margin-right: 12px;
+}
+
+.profile .member-stats .sage {
+  color: #64dd17;
+}
+
+.profile .member-stats .wise-one {
+  color: #a700fa;
+}
+
+.profile .member-stats .learner {
+  color: #ff6f00;
+}
+
+.profile .member-stats .medals {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.profile .member-stats .medal {
+  flex: 1;
+  display: block;
+  margin-right: 20px;
+  height: 45px;
+}
+
+.profile .member-stats .medal.medal-1 {
+  background: url(../../../public/i/medals/medal-1.png);
+  width: 24px;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.profile .member-stats .medal.medal-2 {
+  background: url(../../../public/i/medals/medal-2.png);
+  width: 33px;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.profile .member-stats .medal.medal-3 {
+  background: url(../../../public/i/medals/medal-3.png);
+  width: 44px;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.profile .column-grid {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.profile .column-grid .section-header {
+  margin-bottom: 65px;
+  padding-left: 30px;
+  display: flex;
+  width: 100%;
+}
+
+.profile .column-grid .section-header h3 {
+  flex: 1;
+}
+
+.container.padding-xs .section-header.mobile-only {
+  display: none;
+}
+
+@media screen and (max-width: 1365px) {
+  .container.padding-xs .section-header.mobile-only {
+    display: block;
+    margin: 20px 0;
+  }
+
+  .container.profile-header {
+    background-size: 100% auto;
+    background-position: center top;
+    padding: 20px 0;
+  }
+
+  .profile .profile-image {
+    max-width: 110px;
+    max-height: 110px;
+    margin-top: -100px;
+  }
+
+  .profile .profile-header .grid {
+    margin: 0 0 0 150px;
+    padding-right: 0;
+  }
+
+  .profile .profile-header .content {
+    padding: 0;
+  }
+
+  .profile .profile-header .grid div:last-child {
+    display: none;
+  }
+
+  .container.profile-header h1 {
+    font-size: 32px;
+  }
+
+  .profile .profile-header h4 {
+    font-size: 12px;
+  }
+
+  .profile .member-stats label {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .profile .member-stats > div {
+    margin: 0;
+    min-width: 70px;
+  }
+
+  .profile .member-stats .level-icon {
+    width: 12px;
+    height: 23px;
+    background-size: 100% 100%;
+    margin-right: 4px
+  }
+
+  .profile .member-stats .medal {
+    height: 22px;
+    margin-right: 10px;
+  }
+
+  .profile .member-stats .medal.medal-1 {
+    width: 14px;
+  }
+
+  .profile .member-stats .medal.medal-2 {
+    width: 18px;
+  }
+
+  .profile .member-stats .medal.medal-3 {
+    width: 22px;
+  }
+
+  .profile .with-sidebar {
+    display: block;
+  }
+
+  .profile .filter-sidebar {
+    padding: 20px;
+    margin: 0 -20px;
+  }
+
+  .container .section-header h3.mobile-hidden {
+    display: none;
+  }
+
+  .profile .filter-sidebar p {
+    font-size: 14px;
+  }
+
+  .filter-sidebar label {
+    margin-bottom: 12px;
+  }
+
+  .interests-list {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .profile .filter-sidebar .interests-list li {
+    font-size: 11px;
+    flex: 1;
+    min-width: 33.33%;
+    max-width: 33.33%;
+  }
+
+  .profile .filter-sidebar .interests-list img {
+    max-width: 25px;
+    margin-right: 10px;
+  }
+
+  .profile .filter-sidebar .monthly-achievements-list li {
+    font-size: 12px;
+    margin-bottom: 12px;
+  }
+
+  .profile .filter-sidebar .monthly-achievements-list li::after {
+    width: 8px;
+    height: 8px;
+    left: 1px;
+  }
+
+  .profile .filter-sidebar button.btn.btn-rounded.btn-white.block {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .profile .column-grid .section-header {
+    margin-bottom: 20px;
+    padding-left: 0;
+  }
+
+  .profile .cards {
+    padding-left: 0;
+    margin: 0 -20px;
+  }
+
+  .profile .with-sidebar .grid {
+    display: block;
+    width: 100%;
+  }
+}

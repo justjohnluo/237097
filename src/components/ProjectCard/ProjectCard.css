@@ -1,0 +1,170 @@
+.project-card {
+  flex: 1 1 auto;
+  background-color: #fff;
+  margin: 0 20px 40px;
+  position: relative;
+  max-width: 290px;
+}
+
+.project-card::after,
+.project-card::before {
+  content: ' ';
+  width: 61px;
+  height: 59px;
+  background-image: url(../../../public/i/project-card-sticker.png);
+  background-size: 61px 59px;
+  position: absolute;
+  z-index: 999;
+  pointer-events: none;
+}
+
+.project-card::after {
+  bottom: -15px;
+  right: -15px;
+}
+
+.project-card::before {
+  top: -15px;
+  left: -15px;
+}
+
+.project-card .intro-img {
+  display: block;
+  height: 180px;
+  width: 100%;
+}
+
+.project-card .category-icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  max-width: 61px;
+}
+
+.project-card .project-info {
+  padding: 20px 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-card .project-details {
+  flex: 1;
+}
+
+.project-card .project-details .grid {
+  margin: 0;
+}
+
+.project-card .project-details a.no-link {
+  color: #000;
+}
+
+.project-card .project-details h2 {
+  font-family: 'quicksandbold', sans-serif;
+  font-size: 36px;
+}
+
+.project-card .project-details .project-date {
+  display: block;
+  font-family: 'robotoitalic', sans-serif;
+  color: #90a4ae;
+  font-size: 14px;
+}
+
+.project-card .footer-link {
+  margin-top: 30px;
+}
+
+.project-card .project-details a {
+  font-family: 'robotobold', sans-serif;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.project-card .project-level {
+  text-align: right;
+  min-width: 54px;
+}
+
+.project-card .level-icon {
+  display: inline-block;
+  height: 28px;
+  background-image: url(../../../public/i/level-icon.png);
+  background-size: 18px 28px;
+  background-repeat: repeat-x;
+}
+
+.project-card .project-type {
+  font-family: 'robotoitalic', sans-serif;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.project-card .project-type.lesson {
+  color: #a700fa;
+}
+
+.project-card .project-type.interactive {
+  color: #ff5722;
+}
+
+.project-card .project-type.museum {
+  color: #00c853;
+}
+
+@media screen and (max-width: 1365px) {
+  .project-card {
+    max-width: 170px;
+    margin: 0 0 20px;
+  }
+
+  .project-card .intro-img {
+    height: 90px;
+  }
+
+  .project-card .category-icon {
+    right: 5px;
+    top: 5px;
+    max-width: 30px;
+  }
+
+  .project-card .project-info {
+    padding: 10px 15px;
+  }
+
+  .project-card::after, .project-card::before {
+    width: 30px;
+    height: 25px;
+    background-size: 30px 25px;
+  }
+
+  .project-card::before {
+    top: -6px;
+    left: -6px;
+  }
+
+  .project-card::after {
+    bottom: -6px;
+    right: -6px;
+  }
+
+  .project-card .project-details h2 {
+    font-size: 18px;
+  }
+
+  .project-card .project-details .project-date {
+    font-size: 9px;
+  }
+
+  .project-card .project-details a {
+    font-size: 10px;
+  }
+
+  .project-card .footer-link {
+    margin-top: 10px;
+  }
+
+  .project-card .project-type {
+    font-size: 11px;
+  }
+}

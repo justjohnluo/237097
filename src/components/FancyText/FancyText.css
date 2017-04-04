@@ -1,0 +1,73 @@
+.fancy-text {
+  font-family: 'playfair_displaybold_italic', sans-serif;
+  font-size: 36px;
+  position: relative;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.fancy-text.light {
+  font-family: 'quicksandregular', sans-serif;
+  font-size: 32px;
+  margin-bottom: 0;
+}
+
+.fancy-text::before,
+.fancy-text::after {
+  content: ' ';
+  position: absolute;
+}
+
+.fancy-text::before {
+  background: url(../../../public/i/fancy-text-left.png);
+  background-size: 26px 44px;
+  width: 26px;
+  height: 44px;
+  left: -30px;
+  top: -5px;
+}
+
+.fancy-text.light::before {
+  top: -15px;
+  left: -25px;
+}
+
+.fancy-text::after {
+  background: url(../../../public/i/fancy-text-right.png);
+  background-size: 29px 31px;
+  width: 29px;
+  height: 31px;
+  right: -20px;
+  top: -10px;
+}
+
+@media screen and (max-width: 1365px) {
+  .fancy-text {
+    font-size: 18px;
+  }
+
+  .fancy-text::after {
+    background-size: 100% 100%;
+    width: 15px;
+    height: 15px;
+    right: -10px;
+    top: -5px;
+  }
+
+  .fancy-text::before {
+    background-size: 100% 100%;
+    width: 12px;
+    height: 25px;
+    left: -12px;
+    top: -5px;
+  }
+
+  .fancy-text.light {
+    font-size: 16px;
+  }
+
+  .fancy-text.light::before {
+    top: -12px;
+    left: -12px;
+  }
+}

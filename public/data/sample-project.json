@@ -1,0 +1,55 @@
+{
+  "intro_text": "Welcome to the life of",
+  "headline": "Jackson Pollock",
+  "category": "arts",
+  "progress": 50,
+  "video": "https://www.youtube.com/watch?v=Qc_PcN6ECjg",
+  "instructions": [
+    "Before you start, make sure you’re in the lesson you wanted and that you’ve got all the materials needed. If not, ask an adult to help you out.",
+    "Watch this lesson’s video. It’s super fun! Remember to take breaks!",
+    "Read any extra material given. It may even be a book you already have!",
+    "After you’ve finished, click on “Finish lesson” at the top of the page. Complete the mini quiz just to make sure you’ve learned! This will unlock so many lessons or scholarships for you!"
+  ],
+  "about": {
+    "intro": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "full_text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam "
+  },
+  "requirements": "No worries, for this lesson you just need internet access!",
+  "references": [
+    {
+      "title": "You can check out this books about Jackson Pollock!",
+      "links": [
+        {
+          "url": "/",
+          "text": "Book title goes here"
+        },
+        {
+          "url": "/",
+          "text": "Book title goes here"
+        },
+        {
+          "url": "/",
+          "text": "Book title goes here"
+        }
+      ]
+    },
+    {
+      "title": "Or even check out his works at this galleries and museums",
+      "links": [
+        {
+          "url": "/",
+          "text": "Museum name goes here"
+        },
+        {
+          "url": "/",
+          "text": "Museum name goes here"
+        },
+        {
+          "url": "/",
+          "text": "Gallery name goes here"
+        }
+      ]
+    }
+  ],
+  "sponsor_logo_url": "cool-sponsor.png"
+}

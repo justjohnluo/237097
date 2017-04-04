@@ -1,0 +1,87 @@
+.btn {
+  font-family: 'robotobold', sans-serif;
+  background: transparent;
+  border: 1px solid #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:focus, .btn:hover {
+  outline: 0;
+  opacity: .8;
+}
+
+.btn.btn-header {
+  font-family: 'robotoitalic', sans-serif;
+  font-size: 16px;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  padding: 7px 16px;
+  vertical-align: middle;
+}
+
+.jumbotron .btn {
+  font-family: 'robotoregular', sans-serif;
+  font-size: 18px;
+  margin: 8px;
+  padding: 17px 0;
+  border-radius: 30px;
+}
+
+.btn.btn-cyan {
+  background: #28b6c2;
+  border: none;
+}
+
+.btn.btn-red {
+  background: #d13056;
+  border: none;
+}
+
+.btn.btn-green {
+  background: #00b41e;
+  border: none;
+}
+
+.btn.btn-rounded {
+  border-radius: 30px;
+  padding: 14px 60px;
+}
+
+.btn.btn-white {
+  background: transparent;
+  border: 2px solid #30c4d1;
+  color: #30c4d1;
+  font-size: 18px;
+}
+
+.btn.btn-social {
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px
+}
+
+.btn.btn-fb {
+  background-color: #3c66c4;
+}
+
+.btn.btn-google {
+  background-color: #cf4332;
+}
+
+.btn.btn-centered {
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1365px) {
+  .btn.btn-header {
+    font-family: 'quicksandbold', sans-serif;
+    padding: 0;
+    border: none;
+  }
+
+  .btn.btn-white {
+    font-size: 12px;
+  }
+}

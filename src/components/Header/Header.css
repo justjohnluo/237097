@@ -1,0 +1,155 @@
+.header {
+  background: #2f24c1;
+}
+
+.header nav {
+  min-height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header span {
+  vertical-align: middle;
+}
+
+.header .center-panel {
+  flex: 1;
+}
+
+.header .toggle-menu {
+  display: inline-block;
+  width: 18px;
+  height: 12px;
+  background: url(../../../public/i/menu-icon.png);
+  background-size: 100% 100%;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.header .logo {
+  display: inline-block;
+  width: 68px;
+  height: 20px;
+  background: url(../../../public/i/logo.png);
+  background-size: 100% 100%;
+}
+
+.header h1 {
+  display: inline-block;
+  font-family: 'quicksanditalic', sans-serif;
+  font-size: 24px;
+  color: #fff;
+  line-height: 1;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+
+.header .search-icon {
+  display: inline-block;
+  width: 18px;
+  height: 19px;
+  background: url(../../../public/i/search-icon.png);
+  background-size: 18px 19px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.header .user-info {
+  margin-right: 20px;
+}
+
+.header .user-info, .header .user-info a{
+  font-family: 'quicksanditalic', sans-serif;
+  text-decoration: none;
+  color: #fff;
+}
+
+.header .user-info .notifications-icon {
+  display: inline-block;
+  width: 18px;
+  height: 21px;
+  background: url(../../../public/i/notifications-icon.png);
+  background-size: 18px 21px;
+  margin-right: 34px;
+  cursor: pointer;
+}
+
+.header .user-info img {
+  width: 45px;
+  height: 45px;
+  vertical-align: middle;
+  margin: 0 10px 0 25px;
+}
+
+.header .user-info .user-points {
+  font-size: 24px;
+}
+
+
+.header .user-info .user-points i {
+  display: inline-block;
+  vertical-align: sub;
+  width: 22px;
+  height: 33px;
+  background: url(../../../public/i/points-icon.png);
+  background-size: 22px 33px;
+}
+
+.header .user-info .greeting {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.header .user-info .greeting span {
+  display: block;
+}
+
+.header .user-info .greeting .text-cyan {
+  color: #1f7d85;
+}
+
+@media screen and (max-width: 1365px) {
+  .header nav {
+    min-height: 50px;
+  }
+
+  .header .toggle-menu {
+    display: inline-block;
+    width: 19tpx;
+    height: 13px;
+    margin-right: 0;
+  }
+
+  .header .center-panel {
+    flex: 1;
+    text-align: center;
+  }
+
+  .header .logo {
+    width: 35px;
+    height: 9px;
+  }
+
+  .header h1 {
+    margin-left: 5px;
+    font-size: 12px;
+  }
+
+  .header .right-panel {
+    text-align: right;
+  }
+
+  .header .user-info img {
+    max-width: 22px;
+    max-height: 22px;
+    margin: 0;
+  }
+
+  .header .search-icon,
+  .header .user-info .notifications-icon,
+  .header .user-info .user-points,
+  .header .user-info .greeting {
+    display: none;
+  }
+}

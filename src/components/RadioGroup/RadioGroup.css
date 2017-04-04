@@ -1,0 +1,46 @@
+.radio-group {
+  display: flex;
+  justify-content: center;
+}
+
+.option {
+  font-family: 'robotolight', sans-serif;
+  font-size: 38px;
+  cursor: pointer;
+  margin-right: 45px;
+}
+
+.option .icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #e1e1e1;
+  vertical-align: middle;
+  border-radius: 100%;
+  margin-right: 22px;
+  position: relative;
+}
+
+.option .icon.active::after {
+  content: '';
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  width: 30px;
+  height: 30px;
+  background-color: #30c4d1;
+  border-radius: 100%;
+}
+
+@media screen and (max-width: 1365px) {
+  .radio-group {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .option {
+    margin-right: 0px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,119 @@
+.sidebar-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 75vw;
+  min-height: 100vh;
+  background: #57e4c5;
+  background-image: url(../../../public/i/patterns/sidebar.png);
+  background-size: 250px 165px;
+  z-index: 9999;
+  padding: 45px 60px;
+}
+
+.sidebar-menu::before {
+  content: ' ';
+  position: absolute;
+  right: -74px;
+  top: 0;
+  width: 75px;
+  height: 100%;
+  background: url(../../../public/i/sidebar-edge.png);
+  background-size: 75px 100vh;
+  background-repeat: repeat-y;
+}
+
+.sidebar-menu .backdrop {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent;
+  height: 100%;
+  z-index: -1;
+  cursor: pointer;
+}
+
+.sidebar-menu .close-menu {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  background: url(../../../public/i/menu-dismiss.png);
+  background-size: 23px 23px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.sidebar-menu h1 {
+  font-family: 'quicksanditalic', sans-serif;
+  font-size: 32px;
+  color: #fff;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+.sidebar-menu ul {
+  margin-top: 60px;
+}
+
+.sidebar-menu ul li {
+  padding-left: 100px;
+  margin-bottom: 54px;
+}
+
+.sidebar-menu ul li a {
+  text-decoration: none;
+}
+
+.sidebar-menu ul li span {
+  display: block;
+}
+
+.sidebar-menu ul li .item-description {
+  font-family: 'quicksanditalic', sans-serif;
+  color: #0e6752;
+  font-size: 25px;
+}
+
+.sidebar-menu ul li .item-title {
+  font-family: 'playfair_displaybold', sans-serif;
+  color: #fff;
+  font-size: 67px;
+}
+
+@media screen and (max-width: 1365px) {
+  .sidebar-menu {
+    width: 100vw;
+    height: auto;
+    padding: 30px;
+  }
+
+  .sidebar-menu h1 {
+    font-size: 16px;
+  }
+
+  .sidebar-menu .close-menu {
+    margin-right: 22px;
+  }
+
+  .sidebar-menu ul {
+    margin-top: 40px;
+  }
+
+  .sidebar-menu ul li {
+    padding-left: 15px;
+    margin-bottom: 36px;
+  }
+
+  .sidebar-menu ul li .item-description {
+    font-size: 14px;
+  }
+  .sidebar-menu ul li .item-title {
+    font-size: 33px;
+  }
+
+  .sidebar-menu::before {
+    display: none;
+  }
+}

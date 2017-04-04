@@ -1,0 +1,161 @@
+.quiz-card {
+  text-align: center;
+  position: relative;
+  max-width: 1085px;
+  background-color: #fff;
+  box-shadow: 0 3px 62px rgba(0,0,0,.33);
+  margin: -150px auto 0;
+  padding: 30px;
+  z-index: 999;
+}
+
+.quiz-card h1 {
+  font-family: 'quicksandregular', sans-serif;
+  font-size: 38px;
+  margin: 50px 0 110px;
+}
+
+.quiz-card .btn-question {
+  background-color: rgba(48, 196, 209, .36);
+}
+
+.quiz-card .progress-bar {
+  width: 100%;
+  height: 14px;
+  background: #e8e8e8;
+  border-radius: 14px;
+  margin-top: 82px;
+  position: relative;
+  overflow: hidden;
+}
+
+.quiz-card .progress-bar .fill {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(../../../public/i/patterns/progress-bar-fill.png);
+  background-size: 50px 100%;
+  background-repeat: repeat-x;
+}
+
+.quiz-card .radio-group {
+  margin-bottom: 110px;
+}
+
+.congrats .modal-body {
+  background-image: url(../../../public/i/patterns/congrats.png);
+  background-size: 984px 297px;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.congrats .modal-body h1 {
+  font-family: 'playfair_displaybold', sans-serif;
+  font-size: 86px;
+}
+
+.congrats .modal-body h2 {
+  font-family: 'quicksandregular', sans-serif;
+  font-size: 32px;
+}
+
+.congrats .modal-body .grid {
+  display: flex;
+  justify-content: space-between;
+  max-width: 622px;
+  margin: 45px auto;
+}
+
+.earned-box {
+  font-family: 'robotoregular', sans-serif;
+  color: #30c4d1;
+  font-size: 18px;
+  background-color: #e9f9fa;
+  max-width: 186px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.earned-box strong {
+  font-family: 'quicksandbold', sans-serif;
+  color: #006c75;
+  font-size: 24px;
+}
+
+.earned-box .points-icon,
+.earned-box .lesson-icon,
+.earned-box .scholarship-icon {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: url(../../../public/i/points-icon-lg.png);
+  background-size: 68px 88px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.earned-box .lesson-icon {
+  width: 106px;
+  background: url(../../../public/i/lesson-icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 106px 85px;
+}
+
+.earned-box .scholarship-icon {
+  width: 144px;
+  background: url(../../../public/i/scholarship-icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 144px 82px;
+}
+
+@media screen and (max-width: 1365px) {
+  .quiz-card h1 {
+    font-size: 24px;
+    margin: 25px 0 60px;
+  }
+
+  .quiz-card .radio-group {
+    margin-bottom: 20px;
+  }
+
+  .quiz-card .progress-bar {
+    margin-top: 40px;
+  }
+
+  .congrats .modal-body h1 {
+    font-size: 43px;
+  }
+
+  .congrats .modal-body h2 {
+    font-size: 18px;
+  }
+
+  .congrats .modal-body {
+    background-size: 100% auto;
+  }
+
+  .earned-box {
+    max-width: 100px;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .earned-box strong {
+    font-size: 16px;
+  }
+
+  .earned-box .points-icon,
+  .earned-box .lesson-icon,
+  .earned-box .scholarship-icon {
+    width: 60px;
+    height: 60px;
+    background-size: 54px 54px;
+  }
+}

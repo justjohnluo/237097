@@ -1,0 +1,36 @@
+.filter-sidebar {
+  position: relative;
+}
+
+.filter-sidebar .filter-group {
+  margin-bottom: 30px;
+}
+
+.filter-sidebar label {
+  display: block;
+  font-family: 'robotobold', sans-serif;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.mobile-only {
+  display: none;
+}
+
+@media screen and (max-width: 1365px) {
+  .mobile-only {
+    display: block;
+  }
+
+  .filter-sidebar h2 {
+    font-family: 'quicksandregular', sans-serif;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .filter-sidebar h1 {
+    font-family: 'playfair_displaybold', sans-serif;
+    text-align: center;
+    font-size: 43px;
+  }
+}

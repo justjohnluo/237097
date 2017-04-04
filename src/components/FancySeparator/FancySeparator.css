@@ -1,0 +1,73 @@
+.fancy-separator {
+  background: url(../../../public/i/fancy-separator.png);
+  width: 100%;
+  height: 22px;
+  background-size: 1366px 22px;
+  background-repeat: repeat-x;
+  position: absolute;
+  top: -12px;
+  left: 0;
+  z-index: 999;
+}
+
+.fancy-separator .shadow {
+  position: absolute;
+  top: 13px;
+  width: 100%;
+  background: #eceff1;
+  z-index: 1;
+}
+
+.fancy-separator .shadow.top {
+  box-shadow: 0 -10px 40px 10px rgba(0, 0, 0, 0.1);
+}
+
+.fancy-separator .shadow.bottom {
+  box-shadow: 0 25px 50px 10px rgba(0, 0, 0, 0.1);
+}
+
+.fancy-separator.style-2 {
+  position: relative;
+  margin: 40px auto;
+  display: block;
+  width: 1269px;
+  height: 26px;
+  background-image: url(../../../public/i/fancy-separator2.png);
+  background-size: 1269px 26px;
+}
+
+.fancy-separator.style-3 {
+  position: relative;
+  margin: 50px auto;
+  display: block;
+  width: 100%;
+  max-width: 655px;
+  height: 33px;
+  background-image: url(../../../public/i/fancy-separator3.png);
+  background-size: 100% 33px;
+}
+
+.fancy-separator.style-4 {
+  position: relative;
+  display: block;
+  width: 100%;;
+  height: 10px;
+  background-image: url(../../../public/i/fancy-separator4.png);
+  background-size: 290px 10px;
+  background-repeat: repeat-x;
+}
+
+@media screen and (max-width: 1365px) {
+  .fancy-separator.style-2 {
+    margin: 20px auto;
+    width: 100%;
+    height: 13px;
+    background-size: 100% 13px;
+  }
+
+  .fancy-separator.style-3 {
+    margin: 25px auto;
+    height: 25px;
+    background-size: 100% 25px;
+  }
+}

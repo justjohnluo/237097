@@ -1,0 +1,71 @@
+.fancy-link {
+  position: relative;
+}
+
+.section-link {
+  font-family: 'robotobold', sans-serif;
+  font-size: 24px;
+}
+
+.fancy-link::before {
+  content: ' ';
+  position: absolute;
+  width: 100%;
+  height: 9px;
+  background: url(../../../public/i/underline.png);
+  bottom: -10px;
+  left: 0;
+  background-size: 380px 9px;
+  background-repeat: repeat-x;
+}
+
+.section-link::before {
+  content: ' ';
+  position: absolute;
+  width: 15px;
+  height: 30px;
+  background: url(../../../public/i/section-link-before.png);
+  top: -10px;
+  left: -15px;
+  background-size: 15px 30px;
+  background-repeat: repeat-x;
+}
+
+.section-link::after {
+  content: ' ';
+  position: absolute;
+  width: 75%;
+  max-width: 138px;
+  height: 11px;
+  background: url(../../../public/i/section-link-after.png);
+  bottom: -10px;
+  left: 0;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1365px) {
+  .fancy-link::before {
+    height: 3px;
+    background-size: 380px 3px;
+    bottom: -3px;
+  }
+
+  .section-link {
+    font-size: 12px;
+  }
+
+  .section-link::before {
+    width: 7px;
+    height: 15px;
+    top: -4px;
+    left: -5px;
+    background-size: 100% 100%;
+  }
+
+  .section-link::after {
+    max-width: 70px;
+    height: 5px;
+    bottom: -5px;
+  }
+}

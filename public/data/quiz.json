@@ -1,0 +1,42 @@
+{
+  "name": "Jackson Pollock",
+  "points": 30,
+  "lesson": "Picasso",
+  "scholarship": "Arts",
+  "category": "arts",
+  "questions": [
+    {
+      "title": "Who was Jackson Pollock?",
+      "options": [
+        "A paintor",
+        "An architect",
+        "A farmer"
+      ]
+    },
+    {
+      "title": "Lorem question 2?",
+      "options": [
+        "Option 1",
+        "Option 2",
+        "Option 3"
+      ]
+    },
+    {
+      "title": "Lorem question 3?",
+      "options": [
+        "Option 1",
+        "Option 2",
+        "Option 3"
+      ]
+    },
+    {
+      "title": "Lorem question 4?",
+      "options": [
+        "Option 1",
+        "Option 2",
+        "Option 3"
+      ]
+    }
+  ],
+  "sponsor_logo_url": "cool-sponsor.png"
+}

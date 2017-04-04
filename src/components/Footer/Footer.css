@@ -1,0 +1,89 @@
+.footer {
+  font-family: 'robotolight', sans-serif;
+  height: 160px;
+  background: #2f24c1;
+  color: #fff;
+  display: flex;
+}
+
+.footer .content {
+  flex: 1;
+  margin: auto;
+  font-size: 18px;
+}
+
+.footer .content .row {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.footer .content .row .item {
+  flex: 1;
+}
+
+.footer .content .item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer .content .item .fb-icon,
+.footer .content .item .twitter-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: url(../../../public/i/fb-icon.png);
+  background-size: 100% 100%;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+
+.footer .content .item .twitter-icon {
+  background: url(../../../public/i/twitter-icon.png);
+  background-size: 100% 100%;
+  margin-left: 10px;
+}
+
+.footer .row.centered {
+  align-items: center;
+}
+
+.footer .copyright {
+  text-align: center;
+  opacity: .3;
+  flex: 1;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1365px) {
+  .footer {
+    min-height: 125px;
+  }
+
+  .footer .content {
+    font-size: 12px;
+  }
+
+  .footer .content .row {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .footer .content .row > div,
+  .footer .content .row > span {
+    margin: 6px 0;
+    flex: 1;
+  }
+
+  .footer .content .item .fb-icon,
+  .footer .content .item .twitter-icon {
+    width: 35px;
+    height: 35px;
+  }
+
+  .footer .copyright {
+    font-size: 7px;
+  }
+}

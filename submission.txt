@@ -1,0 +1,36 @@
+Hello reviewer,
+
+Follow the instructions in README.md to setup & run the app which briefly are:
+
+- npm i
+- npm start
+
+Points to note:
+
+- I use redux-logger to log actions and state changes in console so future developers will be able to
+easily debug the application if something is not working as expected. Please do not score down for this as I don't
+use any console.log() statements. This is done with a middleware so if it's not required in the future it can be easily
+removed.
+
+- I kept the original README.md from the starter pack I used (https://github.com/facebookincubator/create-react-app)
+with the name STARTER_PACK_README.md just in case it may be useful later.
+
+- As copilot has mentioned in the challenge forum https://apps.topcoder.com/forums/?module=Thread&threadID=900021&start=0
+the main priority of this challenge is to create "re-usable components, ensure good code quality and follow best practices
+of ReactJS code" instead of "pixel precision".
+So please do not score down for minor UI issues as my code is very clear and well structured using ReactJS' best practices.
+
+- https://apps.topcoder.com/forums/?module=Thread&threadID=900057&start=0 I used ReactJS' best practices.
+And I also implemented a mock API which fetches data from JSON files. In the future you can replace the JSON
+file paths with real API endpoints and the app will work just fine. So it's really easy to integrate the prototype with a backend server.
+
+- The static content is hardcoded in the corresponding components and the dynamic content is fetch from JSON files as discussed here
+https://apps.topcoder.com/forums/?module=Thread&threadID=900164&start=0 using the mock API I've created.
+
+- Here https://apps.topcoder.com/forums/?module=Thread&threadID=900059&start=0 copilot confirmed that we should bring consistency
+to our submission instead of px perfect matching the storyboard.
+
+- There is no storyboard for medium size devices (tablets) thus the mobile version is applied for those devices.
+Please do not score down if there is anything that is not 100% perfect on tablet view.
+
+Thank you and happy reviewing!

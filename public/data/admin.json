@@ -1,0 +1,43 @@
+{
+  "first_name": "Lainy",
+  "last_name": "Purcell",
+  "fullName": "Lainy Purcell",
+  "points": 2209,
+  "photoURL": "/i/users/lainy-purcell.png",
+  "address": "Ontario, Canada",
+  "age": 13,
+  "total_progress": 90,
+  "level": "Wise one",
+  "medals": [
+    "medal-1",
+    "medal-2",
+    "medal-3"
+  ],
+  "about": {
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in",
+    "interests": [
+      "arts",
+      "languages",
+      "culture",
+      "literature",
+      "culinary"
+    ],
+    "monthly_achievements": [
+      "Took 67 Art lessons",
+      "Leveled up to Wise one",
+      "Won a Science medal",
+      "Started a Scholarship"
+    ]
+  },
+  "scholarships": [
+    {
+      "category": "arts",
+      "title": "Experience mayan art",
+      "company": "Company name",
+      "start": "May 7th, 2017",
+      "end": "May 7th, 2017"
+    }
+  ],
+  "completed_lessons": 24,
+  "isAdmin": true
+}

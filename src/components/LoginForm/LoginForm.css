@@ -1,0 +1,34 @@
+.login-form {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.login-form h1.title {
+  font-family: 'playfair_displaybold',sans-serif;
+  font-size: 65px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.login-form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.login-form .btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -10px;
+}
+
+.login-form .btn-group .btn {
+  flex: 1;
+  margin: 0 10px;
+}
+
+@media screen and (max-width: 1365px) {
+  .login-form h1.title {
+    font-size: 43px;
+  }
+}

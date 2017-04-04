@@ -1,0 +1,42 @@
+.checkbox {
+  font-family: 'roboto_light', sans-serif;
+  font-size: 16px;
+  color: #94969e;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.checkbox > span:first-child {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  background-color: #eceff1;
+  margin-right: 10px;
+  position: relative;
+}
+
+.checkbox > span:first-child.active {
+  background-color: #30c4d1;
+}
+
+.checkbox > span:first-child.active::after {
+  content: '';
+  width: 13px;
+  height: 10px;
+  background: url(../../../public/i/checkmark.png);
+  background-size: 100% 100%;
+  position: absolute;
+  left: 3px;
+  top: 5px;
+}
+
+.checkbox .level-icon {
+    display: inline-block;
+    height: 28px;
+    background-image: url(../../../public/i/level-icon.png);
+    background-size: 18px 28px;
+    background-repeat: repeat-x;
+    vertical-align: middle;
+}

@@ -1,0 +1,99 @@
+.scholarship-card {
+  flex: 1;
+  background-color: #fff;
+  margin: 0 20px 40px;
+  position: relative;
+  max-width: 290px;
+}
+
+.scholarship-card::before {
+  content: ' ';
+  width: 61px;
+  height: 59px;
+  background-image: url(../../../public/i/project-card-sticker.png);
+  background-size: 61px 59px;
+  position: absolute;
+  z-index: 999;
+  pointer-events: none;
+}
+
+.scholarship-card::before {
+  top: -15px;
+  left: -15px;
+}
+
+.scholarship-card .intro-img {
+  display: block;
+  height: 180px;
+  width: 100%;
+}
+
+.scholarship-card .category-icon {
+  display: block;
+  margin: 0 auto;
+  max-width: 61px;
+}
+
+.scholarship-card .scholarship-info {
+  padding: 20px 25px;
+}
+
+.scholarship-card .scholarship-details a.no-link {
+  color: #000;
+}
+
+.scholarship-card .scholarship-details h2 {
+  font-family: 'quicksandbold', sans-serif;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.scholarship-card .scholarship-details .scholarship-date {
+  display: block;
+  font-family: 'robotoitalic', sans-serif;
+  color: #90a4ae;
+  font-size: 14px;
+}
+
+.scholarship-card .scholarship-details a {
+  font-family: 'robotobold', sans-serif;
+  font-size: 14px;
+  display: inline-block;
+}
+
+@media screen and (max-width: 1365px) {
+  .scholarship-card {
+    margin: 0 0 20px;
+    max-width: 170px;
+    position: relative;
+  }
+
+  .scholarship-card::before {
+    width: 30px;
+    height: 25px;
+    background-size: 30px 25px;
+  }
+
+  .scholarship-card::before {
+    top: -6px;
+    left: -6px;
+  }
+
+  .scholarship-card .category-icon {
+    display: block;
+    margin: 0 auto;
+    max-width: 30px;
+  }
+
+  .scholarship-card .scholarship-details h2 {
+    font-size: 19px;
+  }
+
+  .scholarship-card .scholarship-details .scholarship-date {
+    font-size: 12px;
+  }
+
+  .scholarship-card .scholarship-details a {
+    font-size: 10px;
+  }
+}

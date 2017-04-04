@@ -1,0 +1,254 @@
+.project-details .content {
+  position: relative;
+}
+
+a.btn-lesson {
+  position: absolute;
+  right: 20px;
+  top: 45px;
+}
+
+a.btn-lesson .btn {
+  color: #000;
+  border: 2px solid #30c4d1;
+  opacity: .22;
+  background-color: #2000d1;
+}
+
+a.btn-lesson.active .btn {
+  color: #30c4d1;
+  opacity: 1;
+  background-color: rgba(48, 196, 209, .36);
+}
+
+.lesson-video.content-md {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 720px;
+  margin: -150px auto 0;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+}
+
+.lesson-video.content-md > div:first-child {
+  box-shadow: 0px 3px 62px rgba(0,0,0,.33);
+  flex: 1;
+  margin-bottom: 55px;
+}
+
+.lesson-video .progress {
+  font-family: 'quicksandregular', sans-serif;
+  font-size: 32px;
+  text-align: center;
+}
+
+.lesson-video .progress-bar {
+  width: 100%;
+  height: 24px;
+  background: #e8e8e8;
+  border-radius: 14px;
+  margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.lesson-video .progress strong {
+  color: #64dd17;
+}
+
+.lesson-video .progress-bar .fill {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(../../../public/i/patterns/progress-bar-fill.png);
+  background-size: 50px 100%;
+  background-repeat: repeat-x;
+}
+
+.content-md {
+  display: block;
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+.grid.content-md {
+  margin: 0 auto;
+}
+
+.grid.instructions {
+  align-items: flex-start;
+}
+
+.instructions-panel {
+  background: #fff;
+  flex: 1px;
+  position: relative;
+  padding: 50px;
+}
+
+.instructions-panel .fancy-text, .instructions-panel h1 {
+  font-family: 'quicksandbold', sans-serif;
+  font-size: 32px;
+}
+
+.instructions-panel p {
+  font-family: 'robotoregular', sans-serif;
+  font-size: 16px;
+}
+
+.instructions-panel p.intro-text {
+  font-family: 'robotobold', sans-serif;
+  font-size: 18px;
+  margin: 35px 0 30px;
+}
+
+.instructions-panel::before,
+.instructions-panel::after {
+  content: '';
+  width: 76px;
+  height: 120px;
+  position: absolute;
+  background: url(../../../public/i/instructions-sticker.png);
+  background-size: 100% 100%;
+  pointer-events: none;
+}
+
+.instructions-panel::before {
+  top: -20px;
+  left: -20px;
+}
+
+.instructions-panel::after {
+  bottom: -40px;
+  right: -20px;
+}
+
+.project-sidebar {
+  font-family: 'robotoregular', sans-serif;
+  font-size: 16px;
+  margin-left: 35px;
+  flex-basis: 300px;
+  background-color: #fff;
+  padding: 30px 25px 0 30px;
+  line-height: 1;
+}
+
+.project-sidebar h2 {
+  font-family: 'quicksandbold', sans-serif;
+  font-size: 24px;
+}
+
+.project-sidebar > div {
+  margin-bottom: 30px;
+}
+
+.project-sidebar ul {
+  padding-left: 35px;
+  margin: 30px 0;
+}
+
+.project-sidebar ul li {
+  padding: 4px 0;
+}
+
+.project-sidebar .fancy-separator {
+  width: calc(100% + 50px);
+  margin: 15px -25px 30px;
+}
+
+.sponsored-by {
+  font-family: 'quicksandbold', sans-serif;
+  font-size: 32px;
+  margin-top: 70px;
+}
+
+.sponsored-by label,
+.sponsored-by img {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.sponsored-by img {
+  margin-top: 24px;
+  max-width: 153px;
+  max-height: 114px;
+}
+
+@media screen and (max-width: 1365px) {
+  a.btn-lesson {
+    position: relative;
+    margin: 20px auto -40px;
+    display: block;
+    width: 200px;
+    top: 0;
+    right: 0;
+  }
+
+  .lesson-video.content-md {
+    height: 300px;
+  }
+
+  .lesson-video .progress {
+    font-size: 16px;
+  }
+
+  .lesson-video.content-md > div:first-child {
+    margin-bottom: 25px;
+  }
+
+  .lesson-video .progress-bar {
+    height: 10px;
+  }
+
+  .sponsored-by {
+    font-size: 16px;
+  }
+
+  .sponsored-by img {
+    max-width: 120px;
+    max-height: 100px;
+  }
+
+  .grid.instructions {
+    display: block;
+  }
+
+  .instructions .instructions-panel {
+    padding: 20px;
+  }
+
+  .instructions .project-sidebar {
+    margin-top: 40px;
+    margin-left: 0;
+    padding-bottom: 10px;
+  }
+
+  .instructions-panel .fancy-text,
+  .instructions-panel h1 {
+    font-size: 24px;
+  }
+
+  .instructions-panel p {
+    font-size: 14px;
+  }
+
+  .instructions-panel p.intro-text {
+    font-size: 14px;
+  }
+
+  .instructions-panel::before,
+  .instructions-panel::after {
+    width: 50px;
+    height: 75px;
+  }
+
+  .instructions-panel::after {
+    bottom: -20px;
+    right: -20px;
+  }
+}

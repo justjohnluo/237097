@@ -1,0 +1,63 @@
+[
+  {
+    "title": "Science",
+    "base_color": "#f8c702",
+    "lessons": 112
+  },
+  {
+    "title": "History",
+    "base_color": "#f80270",
+    "lessons": 112
+  },
+  {
+    "title": "Languages",
+    "base_color": "#30c4d1",
+    "lessons": 112,
+    "new": 1
+  },
+  {
+    "title": "Arts",
+    "base_color": "#aa00ff",
+    "lessons": 112
+  },
+  {
+    "title": "Industry",
+    "base_color": "#002f99",
+    "lessons": 112
+  },
+  {
+    "title": "Culture",
+    "base_color": "#00d75b",
+    "lessons": 112
+  },
+  {
+    "title": "Business",
+    "base_color": "#b8dcdf",
+    "lessons": 112
+  },
+  {
+    "title": "DYI",
+    "base_color": "#fe8402",
+    "lessons": 112
+  },
+  {
+    "title": "Tech",
+    "base_color": "#03a9f4",
+    "lessons": 112
+  },
+  {
+    "title": "Politics",
+    "base_color": "#6200ea",
+    "lessons": 112
+  },
+  {
+    "title": "Literature",
+    "base_color": "#ff7832",
+    "lessons": 112
+  },
+  {
+    "title": "Culinary",
+    "base_color": "#64dd17",
+    "lessons": 112
+  }
+]
